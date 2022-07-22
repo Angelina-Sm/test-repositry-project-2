@@ -1,0 +1,124 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--heading);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--title-color);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.menu-btn-open {
+  font-family: inherit;
+  padding: 0;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  margin-left: auto;
+}
+
+.gallery-item {
+  width: 43px;
+  height: 43px;
+  background-color: aqua;
+  border: 1px solid rgb(255, 30, 255);
+}
+
+.gallery-item-big {
+  width: 90px;
+  height: 90px;
+  background-color: aqua;
+  border: 1px solid rgb(255, 30, 255);
+}
+
+.gallery-list {
+  display: grid;
+  grid-template-columns: 44px 44px 44px 44px 44px 44px 44px;
+  grid-template-rows: 22px 22px 22px 22px 22px 22px;
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+}
+.gallery-list .box1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.gallery-list .box2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.gallery-list .box3 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gallery-list .box4 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.gallery-list .box5 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.gallery-list .box6 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.gallery-list .box7 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.gallery-list .box8 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+.gallery-list .box9 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.gallery-list .box10 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}/*# sourceMappingURL=main.css.map */
