@@ -34,6 +34,14 @@
 //         grid-row-end: 3;
 //     }
 // }
+.gal {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-image:linear-gradient(#FFF5F6 20%,#E5E5E5 20%);
+    max-width: 480px;
+    height: auto;
+}
 .gallery-list {
     display: grid;
     grid-template-columns: 44px 44px 44px 44px 44px 44px 44px;
@@ -112,29 +120,72 @@
     grid-row-gap : 10px;
     }
 }
-.gallery-item {
-    width: 43px;
-    height: 43px;
-    background-color: aqua;
-    border: 1px solid rgba(255 30 255);
-    gap: 10px;
-    @media screen and (min-width:768px){
-        max-width: 768px;
-        width: 104px;
-    height: 104px;
-    }
-}
+// .gallery-list {
+//     display: grid;
+//     grid-template-columns: 44px 44px 44px 44px;
+//     grid-template-rows: 68px 68px;
+//     grid-gap: 5px;
+//     .box1 {
+//         grid-column-start: 1;
+//          grid-column-end: 2;
+//         grid-row-start: 1;
+//         grid-row-end: 3;
+//       align-self: center;
+//    }
+//     .box2 {
+//       align-self: end;
+//     }
 
-
-.gallery-item-big {
-    width: 88px;
-    height: 88px;
-    background-color: aqua;
-    border: 1px solid rgba(255 30 255);
+//     .box3 {
+        
+//         align-self: end;
+//     }
+//    .box5 {
+//        height: 60%;
+       
+//     }
     
-    @media screen and (min-width:768px){
-        max-width: 768px;
-        width: 208px;
-    height: 208px;
-    }
-}
+
+// }
+    
+
+
+// .gallery-item {
+//     background-color: tomato;
+// }
+// .gallery-item {
+//     width: 43px;
+//     height: 43px;
+//     background-color: aqua;
+//     border: 1px solid rgba(255 30 255);
+//     gap: 10px;
+//     @media screen and (min-width:768px){
+//         max-width: 768px;
+//         width: 104px;
+//     height: 104px;
+//     }
+// }
+
+
+// .gallery-item-big {
+//     width: 88px;
+//     height: 88px;
+//     background-color: aqua;
+//     border: 1px solid rgba(255 30 255);
+    
+//     @media screen and (min-width:768px){
+//         max-width: 768px;
+//         width: 208px;
+//     height: 208px;
+//     }
+// }
+// .gallery-list {
+//     display: grid;
+//     grid-gap:3px;
+//     justify-content: center;
+//     grid: repeat(6, 22px) / repeat(7, 44px);
+//     background-color: aqua;
+// }
+// .gallery-item {
+//     background-size: cover;
+// }
